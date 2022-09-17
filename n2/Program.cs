@@ -4,16 +4,16 @@ int a = Convert.ToInt32(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
 if (a>b)
 {
-    Console.Write("max = " + a);
+    Console.Write("max = " + a + " min = " + b);
 }
 else
 {
     if (a<b)
     {
-      Console.Write("max = " + b);  
+      Console.Write("max = " + b + " min = "+ a);  
     }
     else
     {
-        Console.Write("max = a = b");
+        Console.Write("max = min = " + a);
     }
 }
